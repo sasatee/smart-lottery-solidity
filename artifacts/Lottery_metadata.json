@@ -6,39 +6,18 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "academyInstructor",
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "age",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "address",
-						"name": "addr",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -46,12 +25,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "academyState",
+				"name": "manager",
 				"outputs": [
 					{
-						"internalType": "enum Academy.State",
+						"internalType": "address",
 						"name": "",
-						"type": "uint8"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -61,24 +40,37 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_age",
+						"name": "",
 						"type": "uint256"
-					},
+					}
+				],
+				"name": "players",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "address",
-						"name": "_addr",
+						"internalType": "address payable",
+						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "changeInstructor",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "random",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -94,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lottery.sol": "Academy"
+			"lottery.sol": "Lottery"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -109,11 +101,11 @@
 	},
 	"sources": {
 		"lottery.sol": {
-			"keccak256": "0x2dc85628503fe260d87937a06faee841d9fde4c72e4b3710ddc83b5f3315ceb3",
+			"keccak256": "0x8ac8e52d3cb6361bee4df71ee6bf9e41b636addc476a627698a14b16a5f835c2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e5f547cbb073f2b25ff4c7e08617382c913ff059f788606d169d5c0470bdccdb",
-				"dweb:/ipfs/QmaNmeHYVSKYSdmwH4HarPqWnDYNYdKwfcDP574UeHkVZ7"
+				"bzz-raw://e38d59bf79ac8271d601aaeaa108e81b71cc78e6fc28b43c015a14ab039dd969",
+				"dweb:/ipfs/QmPwzVc8Qm9CxkXMAuDegD7cVd6TDpdrX9ZEBjYBSQSVeT"
 			]
 		}
 	},

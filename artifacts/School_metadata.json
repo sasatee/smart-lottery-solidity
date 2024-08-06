@@ -42,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"smart.sol": "School"
+			"lottery.sol": "School"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -56,7 +56,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"smart.sol": {
+		"lottery.sol": {
 			"keccak256": "0x2dc85628503fe260d87937a06faee841d9fde4c72e4b3710ddc83b5f3315ceb3",
 			"license": "GPL-3.0",
 			"urls": [
