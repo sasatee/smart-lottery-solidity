@@ -80,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lottery.sol": "Lottery"
+			"Contract/lottery.sol": "Lottery"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -94,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lottery.sol": {
-			"keccak256": "0xfb809672bd47df71d5434f1042c03294fac02152233d779362684a3aa5b766cc",
+		"Contract/lottery.sol": {
+			"keccak256": "0x8679b8e8991e10356d56147731bd5ec6e4fb8c19a7311631f3d5090d8ca89780",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ca422df97948f1cfc307a22cb58de096fda16e6075584e8c58f178634bd37aed",
-				"dweb:/ipfs/QmNfMYTj13FiDADh6X3SUdqEAZELJV1YY6gRuturTiknYu"
+				"bzz-raw://d38d06b1689b67284781cc6071e3ce2205a235ff73e705f1670145a8840e87d9",
+				"dweb:/ipfs/QmenvtGRXFBuj5SNp6A4J2qc2cr4E61KFN1ns7UM5y6Nb8"
 			]
 		}
 	},

@@ -1,18 +1,39 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "item",
+						"type": "uint256"
+					}
+				],
+				"name": "addElement",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "f",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "getElement",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,22 +46,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "manager",
+				"name": "getLength",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pickWinner",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -51,20 +65,23 @@
 						"type": "uint256"
 					}
 				],
-				"name": "players",
+				"name": "numbers",
 				"outputs": [
 					{
-						"internalType": "address payable",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [],
+				"name": "popElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -80,9 +97,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lottery.sol": "Lottery"
+			"Contract/dynamic_arrays.sol": "DynamicArrays"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -94,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lottery.sol": {
-			"keccak256": "0xfb809672bd47df71d5434f1042c03294fac02152233d779362684a3aa5b766cc",
+		"Contract/dynamic_arrays.sol": {
+			"keccak256": "0xae757aa02e11c6a65adf6e1afd79c93ccfe974c7e361acd41c3252d4ef83e58b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ca422df97948f1cfc307a22cb58de096fda16e6075584e8c58f178634bd37aed",
-				"dweb:/ipfs/QmNfMYTj13FiDADh6X3SUdqEAZELJV1YY6gRuturTiknYu"
+				"bzz-raw://fa821ac21e1b654bb2c84b1e9a0f94eff3dbafea46cbf56e1de09ec74d226590",
+				"dweb:/ipfs/QmYQCfjASjbTmywNYoPEeb1xXPvFbm6k7GbiELqL4fyTk5"
 			]
 		}
 	},
